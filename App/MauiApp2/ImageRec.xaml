@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp2.ImageRec"
+             Title="Image Recognizer">
+    <VerticalStackLayout>
+        <StackLayout Margin="20" Spacing="10" VerticalOptions="StartAndExpand">
+
+            <Label Text="Animal Tag:"
+                   FontSize="Large"
+                   FontAttributes="Bold"
+                   HorizontalTextAlignment="Center"/>   
+            <Frame Margin="0,10,0,10" >
+                <Entry x:Name="AnimalID"  Placeholder="Animal ID" TextColor="Black" FontAttributes="Bold" VerticalOptions="Center" HorizontalOptions="FillAndExpand" Margin="0,0,20,0"/>
+            </Frame>
+            <Frame Margin="0,10,0,20">
+                <Editor x:Name="image" 
+                        FontSize="14"
+                        FontFamily="Verdana"
+                        HeightRequest="200"/>
+            </Frame>
+
+            <Button  Text="Upload Image" BackgroundColor="Black" Clicked="btnUpload"/>
+            <Button  Text="Scan" BackgroundColor="Black" Clicked="btnCheck"/>
+
+            <Frame>
+                <Label Text=""
+                       x:Name="result"
+                       FontSize="Large"
+                       FontAttributes="Bold"
+                       HorizontalTextAlignment="Center"
+                       TextColor="Red"/>
+            </Frame>
+        </StackLayout>
+    </VerticalStackLayout>
+</ContentPage>

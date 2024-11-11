@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="MauiApp2.WorkerShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:MauiApp2"
+    xmlns:model="clr-namespace:MauiApp2.Model"
+             Shell.FlyoutBehavior="Flyout"
+             Shell.NavBarHasShadow="True"
+             Shell.BackgroundColor="White"
+             Shell.ForegroundColor="Black"
+             Shell.TitleColor="Black"
+             Shell.DisabledColor="Azure"
+             Shell.UnselectedColor="Gray"
+             Shell.TabBarBackgroundColor="White"
+             Shell.TabBarForegroundColor="#79F3AD"
+             Shell.TabBarDisabledColor="AliceBlue"
+             Shell.TabBarTitleColor="#79F3AD"
+             Shell.TabBarUnselectedColor="Black">
+
+    <FlyoutItem Title="DashBoard" FlyoutDisplayOptions="AsMultipleItems">
+        <ShellContent Route="Home" Icon="{x:Static model:Icons.Home}" Title="Dashboard" ContentTemplate="{DataTemplate local:DashboardPage}"/>
+        <ShellContent Route="HealthReport" Icon="{x:Static model:Icons.Health}" Title="Health Check" ContentTemplate="{DataTemplate local:Questionaire}"/>
+        <ShellContent Route="Tasks" Icon="{x:Static model:Icons.TaskAllocation}" Title="Tasks" ContentTemplate="{DataTemplate local:TaskPage}"/>
+        <ShellContent Route="AddAnimal" Icon="{x:Static model:Icons.AddAnimal}" Title="Add Animal" ContentTemplate="{DataTemplate local:AddNewAnimal}"/>
+        <ShellContent Route="ImageRec" Icon="{x:Static model:Icons.Detector}" Title="FMD Detector" ContentTemplate="{DataTemplate local:ImageRec}"/>
+    </FlyoutItem>
+
+    <Shell.FlyoutFooter>
+        <StackLayout Padding="20">
+            <Button Text="Sign Out" BackgroundColor="Black" Clicked="signOutClick"/>
+        </StackLayout>
+    </Shell.FlyoutFooter>
+</Shell>

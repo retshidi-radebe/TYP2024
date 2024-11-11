@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp2.AddNewAnimal"
+             Title="Add Animal">
+
+    <ScrollView>
+        <VerticalStackLayout>
+            <StackLayout Padding="20">
+                <Label FontSize="16" FontFamily="Verdana"  Text="Animal Species"/>
+                <Frame Margin="0,10,0,20">
+                    <Picker x:Name="AnimalSpecies"
+                    Title="Choose option"
+                    HorizontalOptions="FillAndExpand"
+                    WidthRequest="250"
+                    HeightRequest="40"
+                    Margin="0,0,20,10">
+                        <Picker.ItemsSource>
+                            <x:Array Type="{x:Type x:String}">
+                                <x:String>Cow</x:String>
+                                <x:String>Other</x:String>
+                            </x:Array>
+                        </Picker.ItemsSource>
+                    </Picker>
+                </Frame>
+
+                <Label FontSize="16" FontFamily="Verdana"  Text="Animal Gender"/>
+                <Frame Margin="0,10,0,20">
+                    <Picker x:Name="AnimalGender"
+                    Title="Choose option"
+                    HorizontalOptions="FillAndExpand"
+                    WidthRequest="250"
+                    HeightRequest="40"
+                    Margin="0,0,20,10">
+                        <Picker.ItemsSource>
+                            <x:Array Type="{x:Type x:String}">
+                                <x:String>Male</x:String>
+                                <x:String>Female</x:String>
+                            </x:Array>
+                        </Picker.ItemsSource>
+                    </Picker>
+                </Frame>
+
+                <Label FontSize="16" FontFamily="Verdana"  Text="Animal Breed"/>
+                <Frame Margin="0,10,0,20">
+                    <Picker x:Name="AnimalBreed"
+                    Title="Choose option"
+                    HorizontalOptions="FillAndExpand"
+                    WidthRequest="250"
+                    HeightRequest="40"
+                    Margin="0,0,20,10">
+                        <Picker.ItemsSource>
+                            <x:Array Type="{x:Type x:String}">
+                                <x:String>Nguni</x:String>
+                                <x:String>Afrikaaner</x:String>
+                                <x:String>Bonsmara</x:String>
+                                <x:String>Hereford</x:String>
+                            </x:Array>
+                        </Picker.ItemsSource>
+                    </Picker>
+                </Frame>
+
+                <Label FontSize="16" FontFamily="Verdana"  Text="Animal Colour"/>
+                <Frame Margin="0,10,0,20">
+                    <Picker x:Name="AnimalColour"
+                    Title="Choose option"
+                    HorizontalOptions="FillAndExpand"
+                    WidthRequest="250"
+                    HeightRequest="40"
+                    Margin="0,0,20,10">
+                        <Picker.ItemsSource>
+                            <x:Array Type="{x:Type x:String}">
+                                <x:String>Brown</x:String>
+                                <x:String>Black</x:String>
+                                <x:String>Mixed</x:String>
+                                <x:String>Red</x:String>
+                                <x:String>White</x:String>
+                            </x:Array>
+                        </Picker.ItemsSource>
+                    </Picker>
+                </Frame>
+
+                <Label FontSize="16" FontFamily="Verdana"  Text="Animal Health Status"/>
+                <Frame Margin="0,10,0,20">
+                    <Picker x:Name="Health"
+                    Title="Choose option"
+                    HorizontalOptions="FillAndExpand"
+                    WidthRequest="250"
+                    HeightRequest="40"
+                    Margin="0,0,20,10">
+                        <Picker.ItemsSource>
+                            <x:Array Type="{x:Type x:String}">
+                                <x:String>Healthy</x:String>
+                                <x:String>Exposed</x:String>
+                                <x:String>Highrisk</x:String>
+                            </x:Array>
+                        </Picker.ItemsSource>
+                    </Picker>
+                </Frame>
+
+                <Label Text="Weight (kg):" FontFamily="Verdana" FontSize="16"/>
+                <Frame Margin="0,10,0,20">
+                    <Entry x:Name="Weight"
+                           Placeholder="Enter weight"
+                           FontSize="14"
+                           FontFamily="Verdana"/>
+                </Frame>
+
+                <Label Text="Height (cm):" FontFamily="Verdana" FontSize="16"/>
+                <Frame Margin="0,10,0,20">
+                    <Entry x:Name="Height" Placeholder="Enter height"
+                   FontSize="14"
+                   FontFamily="Verdana"/>
+                </Frame>
+
+                <Label FontSize="16" FontFamily="Verdana" Text="Animal Age:"/>
+                <Frame Margin="0,10,0,20">
+                    <Entry x:Name="Age"
+                           Placeholder="Enter age"
+                           FontSize="14"
+                           FontFamily="Verdana"/>
+                </Frame>
+
+                <Label FontSize="16" FontFamily="Verdana" Text="Kraal:"/>
+                <Frame Margin="0,10,0,20">
+                    <Entry x:Name="kraal"
+                           Placeholder="Enter age"
+                           FontSize="14"
+                           FontFamily="Verdana"/>
+                </Frame>
+
+                <Label Text="Date Acquired:" FontFamily="Verdana" FontSize="16"/>
+                <Frame Margin="0,10,0,20">
+                    <DatePicker HorizontalOptions="FillAndExpand"
+                                WidthRequest="250"
+                                HeightRequest="40"
+                                Margin="0,0,20,10"
+                                Format="D"/>
+                </Frame>
+
+                <StackLayout Padding="20">
+                    <Button Text="Add Animal" Command="{Binding AddAnimalQCommand}" BackgroundColor="Black" Clicked="NewAnimal"/>
+                </StackLayout>
+            </StackLayout>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

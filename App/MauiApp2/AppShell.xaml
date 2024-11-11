@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="MauiApp2.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:MauiApp2"
+    xmlns:model="clr-namespace:MauiApp2.Model"
+    Shell.FlyoutBehavior="Flyout"
+    Title="Farmacy"
+    Shell.NavBarHasShadow="True"
+             Shell.BackgroundColor="White"
+             Shell.ForegroundColor="Black"
+             Shell.TitleColor="Black"
+             Shell.DisabledColor="Azure"
+             Shell.UnselectedColor="Gray"
+    >
+
+    <ShellContent
+        Title="Login"
+        ContentTemplate="{DataTemplate local:LoginPage}"
+        Route="MainPage"
+        FlyoutItemIsVisible="False"/>
+
+
+    <FlyoutItem Route="DashboardPage" FlyoutDisplayOptions="AsMultipleItems">
+        <!--<ShellContent Title="Dashboard" ContentTemplate="{DataTemplate views:DashboardPage}"/>
+        <ShellContent Title="Tasks" ContentTemplate="{DataTemplate views:TaskPage}"/>
+        <ShellContent Title="Add Task" ContentTemplate="{DataTemplate views:AddTask}"/>
+        <ShellContent Title="Animal Health Report" ContentTemplate="{DataTemplate views:Questionaire}"/>
+        <ShellContent Title="Add New Animal" ContentTemplate="{DataTemplate views:AddNewAnimal}"/>-->
+
+        <ShellContent Route="Home" Icon="{x:Static model:Icons.Home}" Title="Home" ContentTemplate="{DataTemplate local:DashboardPage}"/>
+        <ShellContent Route="HealthReport" Icon="{x:Static model:Icons.Health}" Title="Health Report" ContentTemplate="{DataTemplate local:Questionaire}"/>
+        <ShellContent Route="AddTask" Icon="{x:Static model:Icons.AddTask}" Title="Add Task" ContentTemplate="{DataTemplate local:AddTask}"/>
+        <ShellContent Route="Tasks" Icon="{x:Static model:Icons.TaskAllocation}" Title="Tasks" ContentTemplate="{DataTemplate local:TaskPage}"/>
+        <ShellContent Route="Allocate" Icon="{x:Static model:Icons.Allocation}" Title="Allocate Task" ContentTemplate="{DataTemplate local:AlloTask}"/>
+        <ShellContent Route="AddAnimal" Icon="{x:Static model:Icons.AddAnimal}" Title="Add Animal" ContentTemplate="{DataTemplate local:AddNewAnimal}"/>
+    </FlyoutItem>
+
+    <Shell.FlyoutFooter>
+        <StackLayout Padding="20">
+            <Button Text="Sign Out" BackgroundColor="Black" Clicked="signOutClick"/>
+        </StackLayout>
+    </Shell.FlyoutFooter>
+</Shell>

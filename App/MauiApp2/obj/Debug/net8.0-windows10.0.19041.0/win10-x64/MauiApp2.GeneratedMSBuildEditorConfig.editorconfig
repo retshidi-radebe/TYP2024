@@ -1,0 +1,151 @@
+is_global = true
+build_property.TargetFramework = net8.0-windows10.0.19041.0
+build_property.TargetPlatformMinVersion = 10.0.17763.0
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 9A19103F-16F7-4668-BE54-9A1E7A4F7556
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = MauiApp2
+build_property.ProjectDir = C:\Users\Johannes Mabaso\Downloads\CodeXplorerers\App-AMaster\team15-mobile\MauiApp2\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+
+[C:/Users/Johannes Mabaso/Downloads/CodeXplorerers/App-AMaster/team15-mobile/MauiApp2/AddNewAnimal.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiApp2.AddNewAnimal.xaml
+build_metadata.AdditionalFiles.TargetPath = AddNewAnimal.xaml
+build_metadata.AdditionalFiles.RelativePath = AddNewAnimal.xaml
+
+[C:/Users/Johannes Mabaso/Downloads/CodeXplorerers/App-AMaster/team15-mobile/MauiApp2/AddTask.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiApp2.AddTask.xaml
+build_metadata.AdditionalFiles.TargetPath = AddTask.xaml
+build_metadata.AdditionalFiles.RelativePath = AddTask.xaml
+
+[C:/Users/Johannes Mabaso/Downloads/CodeXplorerers/App-AMaster/team15-mobile/MauiApp2/AlloTask.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiApp2.AlloTask.xaml
+build_metadata.AdditionalFiles.TargetPath = AlloTask.xaml
+build_metadata.AdditionalFiles.RelativePath = AlloTask.xaml
+
+[C:/Users/Johannes Mabaso/Downloads/CodeXplorerers/App-AMaster/team15-mobile/MauiApp2/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiApp2.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/Johannes Mabaso/Downloads/CodeXplorerers/App-AMaster/team15-mobile/MauiApp2/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiApp2.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/Johannes Mabaso/Downloads/CodeXplorerers/App-AMaster/team15-mobile/MauiApp2/DashboardPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiApp2.DashboardPage.xaml
+build_metadata.AdditionalFiles.TargetPath = DashboardPage.xaml
+build_metadata.AdditionalFiles.RelativePath = DashboardPage.xaml
+
+[C:/Users/Johannes Mabaso/Downloads/CodeXplorerers/App-AMaster/team15-mobile/MauiApp2/DashManager.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiApp2.DashManager.xaml
+build_metadata.AdditionalFiles.TargetPath = DashManager.xaml
+build_metadata.AdditionalFiles.RelativePath = DashManager.xaml
+
+[C:/Users/Johannes Mabaso/Downloads/CodeXplorerers/App-AMaster/team15-mobile/MauiApp2/FeedQs.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiApp2.FeedQs.xaml
+build_metadata.AdditionalFiles.TargetPath = FeedQs.xaml
+build_metadata.AdditionalFiles.RelativePath = FeedQs.xaml
+
+[C:/Users/Johannes Mabaso/Downloads/CodeXplorerers/App-AMaster/team15-mobile/MauiApp2/ImageRec.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiApp2.ImageRec.xaml
+build_metadata.AdditionalFiles.TargetPath = ImageRec.xaml
+build_metadata.AdditionalFiles.RelativePath = ImageRec.xaml
+
+[C:/Users/Johannes Mabaso/Downloads/CodeXplorerers/App-AMaster/team15-mobile/MauiApp2/LoginPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiApp2.LoginPage.xaml
+build_metadata.AdditionalFiles.TargetPath = LoginPage.xaml
+build_metadata.AdditionalFiles.RelativePath = LoginPage.xaml
+
+[C:/Users/Johannes Mabaso/Downloads/CodeXplorerers/App-AMaster/team15-mobile/MauiApp2/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiApp2.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/Users/Johannes Mabaso/Downloads/CodeXplorerers/App-AMaster/team15-mobile/MauiApp2/ManagerShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiApp2.ManagerShell.xaml
+build_metadata.AdditionalFiles.TargetPath = ManagerShell.xaml
+build_metadata.AdditionalFiles.RelativePath = ManagerShell.xaml
+
+[C:/Users/Johannes Mabaso/Downloads/CodeXplorerers/App-AMaster/team15-mobile/MauiApp2/NotesPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiApp2.NotesPage.xaml
+build_metadata.AdditionalFiles.TargetPath = NotesPage.xaml
+build_metadata.AdditionalFiles.RelativePath = NotesPage.xaml
+
+[C:/Users/Johannes Mabaso/Downloads/CodeXplorerers/App-AMaster/team15-mobile/MauiApp2/Questionaire.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiApp2.Questionaire.xaml
+build_metadata.AdditionalFiles.TargetPath = Questionaire.xaml
+build_metadata.AdditionalFiles.RelativePath = Questionaire.xaml
+
+[C:/Users/Johannes Mabaso/Downloads/CodeXplorerers/App-AMaster/team15-mobile/MauiApp2/Register.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiApp2.Register.xaml
+build_metadata.AdditionalFiles.TargetPath = Register.xaml
+build_metadata.AdditionalFiles.RelativePath = Register.xaml
+
+[C:/Users/Johannes Mabaso/Downloads/CodeXplorerers/App-AMaster/team15-mobile/MauiApp2/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiApp2.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/Johannes Mabaso/Downloads/CodeXplorerers/App-AMaster/team15-mobile/MauiApp2/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiApp2.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/Johannes Mabaso/Downloads/CodeXplorerers/App-AMaster/team15-mobile/MauiApp2/Settings.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiApp2.Settings.xaml
+build_metadata.AdditionalFiles.TargetPath = Settings.xaml
+build_metadata.AdditionalFiles.RelativePath = Settings.xaml
+
+[C:/Users/Johannes Mabaso/Downloads/CodeXplorerers/App-AMaster/team15-mobile/MauiApp2/TaskDescription.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiApp2.TaskDescription.xaml
+build_metadata.AdditionalFiles.TargetPath = TaskDescription.xaml
+build_metadata.AdditionalFiles.RelativePath = TaskDescription.xaml
+
+[C:/Users/Johannes Mabaso/Downloads/CodeXplorerers/App-AMaster/team15-mobile/MauiApp2/TaskPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiApp2.TaskPage.xaml
+build_metadata.AdditionalFiles.TargetPath = TaskPage.xaml
+build_metadata.AdditionalFiles.RelativePath = TaskPage.xaml
+
+[C:/Users/Johannes Mabaso/Downloads/CodeXplorerers/App-AMaster/team15-mobile/MauiApp2/TaskUpdate.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiApp2.TaskUpdate.xaml
+build_metadata.AdditionalFiles.TargetPath = TaskUpdate.xaml
+build_metadata.AdditionalFiles.RelativePath = TaskUpdate.xaml
+
+[C:/Users/Johannes Mabaso/Downloads/CodeXplorerers/App-AMaster/team15-mobile/MauiApp2/TodoListPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiApp2.TodoListPage.xaml
+build_metadata.AdditionalFiles.TargetPath = TodoListPage.xaml
+build_metadata.AdditionalFiles.RelativePath = TodoListPage.xaml
+
+[C:/Users/Johannes Mabaso/Downloads/CodeXplorerers/App-AMaster/team15-mobile/MauiApp2/WorkerShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiApp2.WorkerShell.xaml
+build_metadata.AdditionalFiles.TargetPath = WorkerShell.xaml
+build_metadata.AdditionalFiles.RelativePath = WorkerShell.xaml

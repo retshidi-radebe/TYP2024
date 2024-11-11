@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp2.TaskUpdate"
+             Title="Task Update">
+    <VerticalStackLayout>
+        <StackLayout>
+            <Label FontSize="Large" FontFamily="Verdana" Text="User:"/>
+            <Frame Margin="0,10,0,20">
+                <Picker x:Name="UserID"
+               FontSize="14"
+               Title="Choose User"
+               SelectedIndexChanged="selectedUser"
+               FontFamily="Verdana"/>
+            </Frame>
+        </StackLayout>
+
+        <StackLayout x:Name="tasks" >
+            <Frame Margin="0,10,0,20">
+                <TableView Intent="Data">
+                    <TableRoot>
+                        <TableSection Title="Available Tasks" x:Name="table" >
+
+                        </TableSection>
+                    </TableRoot>
+                </TableView>
+            </Frame>
+        </StackLayout>
+        <Label FontSize="16" FontFamily="Verdana" Text="Location tasks were completed:"/>
+        <Frame>
+            <Label x:Name="locations" FontSize="14" FontFamily="Verdana" Text=""/>
+        </Frame>
+    </VerticalStackLayout>
+</ContentPage>
